@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #222;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #663399;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#options-container {
+  margin-top: 20px;
+  display: block; /* Use flexbox to align items */
+}
+
+.option-btn {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #663399;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  overflow-wrap: break-word; /* Allow long text to break into multiple lines */
+}
+
+#result {
+  text-align: center;
+}
+
+#options-container label {
+  margin-bottom: 10px; /* Adjust spacing between options */
+}
+
+#options-container input[type="radio"] {
+  margin-right: 10px; /* Add right margin to radio buttons */
+}
